@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Science MS residential program</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+        .navbar {
+            background-image: linear-gradient(90deg, #002f6c, #25cad3);
+            margin-bottom: 20px;
+        }
+
+        .navbar-brand-test {
+            font-weight: bolder;
+            color: black;
+        }
+
+        .content {
+            width: 1024px;
+            margin: auto;
+        }
+
+
+        h1 {
+            font-size: 28px;
+            font-weight: bolder;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 19px;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+
+        .tracks {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 10px;
+        }
+
+        h5 {
+            font-weight: bolder;
+        }
+
+        .track {
+            margin-top: 10px;
+            border: 2px solid #D8D8D8;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            position: relative;
+            background: #dde4f0;
+        }
+
+        .track h5 {
+            padding-top: 20px;
+            color: #222d4c;
+            font-weight: bolder;
+        }
+
+        .track p {
+            margin-bottom: 60px;
+        }
+
+        .track a {
+            position: absolute;
+            padding: 0px 0px 0px 30px;
+
+            color: black;
+
+            bottom: 20px;
+            width: 168px;
+            height: 28px;
+
+
+            border-radius: 14px;
+            border: solid 0px #4da9eb;
+            background-color: #ffff21;
+
+            text-decoration: none;
+            box-shadow: none;
+            transition: box-shadow 1s ease;
+        }
+
+        .track a:hover {
+            transition: box-shadow 1s ease;
+            box-shadow: 2px 0 10px 0 #4da9eb;
+        }
+
+        .card {
+            margin-bottom: 10px;
+            background: #dde4f0;
+        }
+
+        .card-head {
+            display: grid;
+            grid-template-columns: 38px auto;
+            grid-column-gap:10px;
+        }
+
+        .card-head button {
+            background-color: transparent !important;
+            border: 0px solid #990000;
+        }
+
+        .card-head h5 {
+            margin-bottom: 0 !important;
+            line-height: 38px;
+            font-size: 18px;
+        }
+
+        .courses {
+            margin-top: 50px;
+        }
+
+        .courses h5:nth-of-type(1) {
+            margin-bottom: 20px;
+            color: #222d4c;
+        }
+
+        .card-title {
+            color: black !important;
+        }
+
+        .floating-top {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            width: 50px;
+            height: 50px;
+            background-color: #eeeeee;
+            text-align: center;
+            color: #757575;
+            transition-duration: 1s;
+        }
+
+        .floating-top a {
+            color: black;
+            font-weight: bolder;
+            line-height: 50px;
+            text-align: center;
+            font-size: 45px;
+            text-decoration: none;
+        }
+
+        .floating-top:hover {
+            transition-duration: 1s;
+            transform: scale(1.1);
+        }
+
+        body{
+            background-image:url('https://onlinedatasciencemasters.virginia.edu/images/burst.png');
+            background-repeat:none;
+            background-repeat: no-repeat;
+            background-position-x: calc(100% + 300px);
+            background-position-y: 50vh;
+            background-size: 600px 600px;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="floating-top">
+    <a href="#top">↑</a>
+</div>
+
+<!-- Just an image -->
+<nav class="navbar navbar-light bg-light" id="top">
+         <img src="datascience.png"  height="22"> 
+</nav>
+<div class="content">
+    <h1>Data Science PhD Program</h1>
+    <p>
+       The University of Virginia seeks approval for the establishment of a new Doctor of Philosophy (PhD) degree program in Data Science at the main campus in Charlottesville. The proposed program will be administered by the Office of the Dean of the School of Data Science. </p>
+<p>
+The purpose of the proposed PhD in Data Science is to prepare data scientists for roles in academia and industry by creating a scholarly environment in which methodological creativity and innovation are applied to scientific and societally important problems. The proposed program will merge sophisticated data science research with the intricate details of practical applications to produce cycles of discovery across a wide range of disciplines. Embedding value-based and ethical analyses in all aspects of data science is a key focus of the proposed degree. 
+</p>
+
+    <h5>Areas</h5>
+    <div class="tracks">
+        <div class="track">
+            <h5>Analytics</h5>
+            <p>Develop mathematical and analytical methodologies to advance understanding of multi-type, complex data in order to achieve powerful translational results in a chosen area of research. </p>
+            
+        </div>
+        <div class="track">
+            <h5>Systems</h5>
+            <p>Understand and implement the infrastructure systems and architectures that enable working with big data - big in terms of volume, velocity, and variety - and with the high-performance pipelines in both development and production environments.  </p>
+          
+        </div>
+        <div class="track">
+            <h5>Data Design or Value</h5>
+            <p>Evaluate the social, ethical, legal and political implications of data science principles, methods and applications in diverse contexts to ensure a full consideration of the societal impact of data science leading to responsible decisions and actions.	
+            </p>
+           
+        </div>
+        <div class="track">
+            <h5>Domain Elective or Final Project</h5>
+            <p>
+               In consultation with domain experts, develop and carry out a rigorous and independent data science research agenda, with attention to theoretical, methodological, and ethical dimensions. </p>
+         
+        </div>
+    </div>
+
+</div>
+<div class="content courses" id="apds">
+    <h5>Program Requirements</h5>
+
+The proposed PhD in Data Science will require 81 credit hours. A dissertation is required.
+
+The curriculum will provide students with the advanced knowledge and skills necessary to develop, translate, and apply methodological innovations to drive scientific discovery and inform effective, data-driven governance in the public and private sectors. A robust core curriculum will train students to design and implement effective data systems, architectures, and pipelines in both development and production environments. Students will learn to design and deploy methods of encoding, curating, analyzing, and communicating data and its multivariate characteristics for a variety of audiences and users.
+
+Students will complete directed research in their area of interest and career aspiration. Research will engage students in independent conceptualization and research of original contributions to the field. Students will work under the supervision of a research advisor while conducting research. 
+
+</div>
+
+<div class="content courses" id="y1">
+    <h5>Year 1</h5>
+
+<div id="courses-s1">
+</div>
+</div>
+
+<div class="content courses" id="y2">
+    <h5>Year 2</h5>
+
+<div id="courses-s2">
+</div>
+</div>
+
+<div class="content courses" id="y3">
+    <h5>Years 3 - 5</h5>
+
+<div id="courses-s3">
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+<script>
+    let s1Courses = [
+        {
+            title: "DS 6000: Proseminar",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>A graduate-level course on machine learning techniques and applications with emphasis on their application to systems engineering. Topics include: Bayesian learning, evolutionary algorithms, instance-based learning, reinforcement learning, and neural networks. Students are required to have sufficient computational background to complete several substantive programming assignments. Prerequisite: A course covering statistical techniques such as regression.</li></ul></div>
+            `
+        },
+        {
+            title: "DS 6002: Ethics of Big Data I",
+            content: `
+            <div aria-labelledby="panel-0-2-label" class="accordion-content" data-tab-content="" id="panel-0-2" role="region" aria-hidden="false" style="display: block;"><p><span>Term(s) offered: Fall</span></p><p><span><strong>Prerequisite(s): Experience with programming, data structures, and algorithms will be assumed. Assignments will involve substantial amount of programming in Python. In addition, we will encounter math of various kinds, including linear algebra, probability theory, and basic calculus. </strong></span></p><p><span>This course covers the fundamentals of Artificial Intelligence, and is aimed at M.S., early Ph.D., and advanced undergraduate students in Computer Science and Data Science, as well as students in other related fields who have a strong computing background.&nbsp; Topics will include (tentatively):</span></p><ul><li><span></span><span>AI overview: Goals, history, progress, challenges.</span></li><li><span></span><span>Problem solving and search: Uninformed search, heuristics, A*, local search.</span></li><li><span></span><span>Applied search: Game playing, constraint satisfaction, planning.</span></li><li><span></span><span>Reasoning under uncertainty: Uncertainty representation, probabilistic models, probabilistic inference, Bayesian and Markov networks.</span></li><li><span></span><span>Machine learning: Decision trees, neural networks, support vector machines.</span></li><li><span></span><span>Applications: Computer vision, natural language processing, robotics.</span></li></ul></div>
+            `
+        },
+        {
+            title: "CS 5010: Programming and Systems for Data Science",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>The objective of this course is to introduce basic data analysis techniques including data analysis at scale, in the context of real-world domains such as bioinformatics, public health, marketing, security, etc. For the purpose of facilitating data manipulation and analysis, students will be introduced to essential programming techniques in Python, an increasingly prominent language for data science and “big data” manipulation.</li></ul></div>
+            `
+        },
+        {
+            title: "CS 5012: Foundations of Computer Science",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>Provide a foundation in discrete mathematics, data structures, algorithmic design and implementation, computational complexity, parallel computing, and data integrity and consistency for non-CS, non-CpE students. Case studies and exercises will be drawn from real-world examples (e.g., bioinformatics, public health, marketing, and security).</li></ul></div>
+            `
+        },
+        {
+            title: "DS 5559: Big Data Analytics",
+            content: `
+            <div aria-labelledby="panel-0-2-label" class="accordion-content" data-tab-content="" id="panel-0-2" role="region" aria-hidden="false" style="display: block;"><p>Increasingly, data scientists and data engineers are working with datasets that exceed the memory of a single machine. This motivates the need for a different paradigm of computing, and a different toolset. This course will prepare you for this use case. The focus of the course is learning Spark, an open-source, general-purpose computing framework that is scalable and blazingly fast. The fundamental data types and concepts will be covered (e.g., resilient distributed datasets, DataFrames). You will learn how to use Spark for large-scale analytics and machine learning, among other topics. Tools for data storage and retrieval will be covered, including AWS and the Hadoop ecosystem.</li></ul></div>
+            `
+        },
+        {
+            title: "DS 6014: Bayesian Machine Learning",
+            content: `
+            <div aria-labelledby="panel-0-2-label" class="accordion-content" data-tab-content="" id="panel-0-2" role="region" aria-hidden="false" style="display: block;"><p>Bayesian inferential methods provide a foundation for machine learning under conditions of uncertainty. Bayesian machine learning techniques can help us to more effectively address the limits to our understanding of world problems. This class covers the major related techniques, including Bayesian inference, conjugate prior probabilities, naive Bayes classifiers, expectation maximization, Markov chain monte carlo, and variational inference.</li></ul></div>
+            `
+        },
+        {
+            title: "SYS 6016: Machine Learning",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>A graduate-level course on machine learning techniques and applications with emphasis on their application to systems engineering. Topics include: Bayesian learning, evolutionary algorithms, instance-based learning, reinforcement learning, and neural networks. Students are required to have sufficient computational background to complete several substantive programming assignments. Prerequisite: A course covering statistical techniques such as regression.</li></ul></div>
+            `
+        },
+		
+    ]
+    let s2Courses = [
+        {
+            title: "SYS 6018: Data Mining",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>Data mining describes approaches to turning data into information. Rather than the more typical deductive strategy of building models using known principles, data mining uses inductive approaches to discover the appropriate models. These models describe a relationship between a system’s response and a set of factors or predictor variables. Data mining in this context provides a formal basis for machine learning and knowledge discovery. This course investigates the construction of empirical models from data mining for systems with both discrete and continuous valued responses. It covers both estimation and classification, and explores both practical and theoretical aspects of data mining.</li></ul></div>
+            `
+        },
+        {
+            title: "DS 7001 – Ethics and Value for Data Science",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>Combines topics in ethics, business planning, and policy making for advanced study in the area of value. Students learn to articulate value propositions for organizations selecting and managing various types of data sciences. Students research and discover how data are created and prepare papers and presentations to demonstrate understanding of the ethics of data acquisition, manipulation, communication, and sharing, and the application of data products in the world.
+</p></div>
+            `
+        },
+
+        {
+            title: "DS 7002 – Representation and Design for Data Science",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>Focuses on interface between the real world and its representation as data via information technology. Students explore design strategies for effective human-machine interaction in both product implementation and communication and learn to use recent advances in data representation, management, and processing for large, rapidly flowing data pipelines. Deepens understanding of contemporary methods for data curation and visualization and how they are linked through common design processes.
+</p></div>
+            `
+        },
+        {
+            title: "DS 7003 – Hardware and Software Systems for Data Science",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>Explores data systems, the infrastructures and architectures that support working with big data and building high performance pipelines. Students learn to design and implement high volume data pipelines on distributed, cloud-based systems. Students study and apply principles of scalability, consistency, reliability, reproducibility, efficiency, and maintainability for data intensive applications. Through project work, students navigate the pros of and cons of the latest technologies for massive data storage and processing.</p></div>
+            `
+        },
+        {
+            title: "DS 7999 – Research Rotation",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>Students spend at least two semesters as apprentices in this faculty-led research rotation, experiencing different research topics and environments to aid in their selection of a research project and advisor.</p></div>
+            `
+        },
+		
+    ]
+    let s3Courses = [
+        {
+            title: "DS 7004 – Advanced Analytics for Data Science",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>Covers advanced analytics, the combination of statistical methods with machine learning, along with optimization, signal processing, network analysis, and other rigorous quantitative methods from a variety of fields. Students will read and critique the most recent papers in machine learning. Working both individually and in teams, students will implement recently deployed machine learning algorithms on original and different data sets and provide objective assessments of the results. Through experiments within and outside class, students will explore different methods of optimization and their uses within contemporary machine learning.</p></div>
+            `
+        },
+        {
+            title: "DS 7998 – PhD Level Research",
+            content: `
+            <div aria-labelledby="panel-0-1-label" class="accordion-content" data-tab-content="" id="panel-0-1" role="region" aria-hidden="false" style="display: block;"><p>Students work under the supervision of a faculty mentor for multiple semesters to complete a data science research project that contributes to the advancement of the field. Project products – including traditional peer-reviewed articles, data sets, and algorithms – are collected in a portfolio for evaluation by the graduate advisor committee.</p></div>
+            `
+        },
+		
+    ]
+
+
+
+
+    function getHtml(course, contentId) {
+        return `
+        <div class="card">
+            <div class="card-body">
+                <div class="card-head">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#${contentId}"
+                            aria-expanded="false" aria-controls="${contentId}" style="color:black;">
+                        <i class="accordion-icon-closed fas fa-angle-down"></i>
+                    </button>
+                    <h5 class="card-title">${course.title}</h5>
+                   
+                </div>
+                <div class="collapse" id="${contentId}">
+                    ${course.content}
+                </div>
+            </div>
+        </div>
+        `;
+    }
+
+    $(document).ready(function () {
+        s1Courses.forEach((course, index) => {
+            let contentId = "course-s1-" + index;
+            $("#courses-s1").append(getHtml(course, contentId));
+        });
+
+        s2Courses.forEach((course, index) => {
+            let contentId = "course-s2-" + index;
+            $("#courses-s2").append(getHtml(course, contentId));
+        });
+
+        s3Courses.forEach((course, index) => {
+            let contentId = "course-s3-" + index;
+            $("#courses-s3").append(getHtml(course, contentId));
+        });
+        s4Courses.forEach((course, index) => {
+            let contentId = "course-s4-" + index;
+            $("#courses-s4").append(getHtml(course, contentId));
+        });
+        s5Courses.forEach((course, index) => {
+            let contentId = "course-s5-" + index;
+            $("#courses-s5").append(getHtml(course, contentId));
+        });
+    });
+</script>
+</body>
+</html>
